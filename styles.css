@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(images/back.png);
+}
+
+#header{
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)) ,url(images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: auto;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	color: white;
+}
+
+#header h1{
+	border: 10px solid black;
+	padding: 10px;
+	font-family: 'Alatsi', sans-serif;
+}
+
+nav{
+	background-color: #BD1515;
+	width: 100%;
+	height: 10%;
+	padding: 15px;
+	text-align: center;
+}
+
+nav a{
+	color: white;
+    font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+}
+
+#wrapper{
+	background-color: white;
+	width: 66%;
+	justify-content: center;
+    margin-left: auto;
+	margin-right: auto;
+	font-family: 'Montserrat', sans-serif;
+	border: 2px solid red;
+}
+
+#wrapper h1{
+	padding: 15px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+#wrapper p{
+	padding: 15px;
+}
+
+#wrapper img{
+	padding: 15px;
+	width: 100%;
+}
+
+#wrapper a{
+	text-decoration: none;
+}
+
+#navtab{
+	padding: 15px;
+}
+
+#column{
+	flex: 33.3%;
+	padding: 5px;
+}
+
+#row{
+	display: flex;
+}
+
+#youtube iframe{
+	width: 100%;
+	height: 480px;
+}
+
+footer{
+	width: 100%;
+	height: 10%;
+	background-color: white;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
